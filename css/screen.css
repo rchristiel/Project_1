@@ -207,13 +207,10 @@ label {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
-body{
-  background-color: blue;
-}
 
-@media only screen and (min-width: 360px){
+@media only screen and (min-width:0px)and (max-width 360px){
   body{
-    background-color: yellow;
+    background-color: #768C35;
   }
   html {
     font-size: calc(30px + 6 * ((100vw - 320px) / 680));
@@ -224,7 +221,7 @@ body{
 }
 @media only screen and (min-width: 448px){
   body{
-    background-color: red;
+    background-color: #768C35;
   }
   html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
@@ -239,7 +236,7 @@ body{
 
 @media only screen and (min-width:992px){
   body{
-    background-color:violet;
+    background-color:#768C35;
   }
 
 }
